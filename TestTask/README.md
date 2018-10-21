@@ -8,7 +8,7 @@ Aplikacja do działania wymaga:
     /src/main/resources/META-INF/persistence.xml
     dla posiadanej bazy danych 
 3. serwera (zalecam WildFly'a)
-
+4. opcjonalnie po pierwszym uruchomieniu mozna zmienic wartosc hibernate.hbm2ddl.auto na update lub validate
 
 Działanie:
     sciezka dostepu: /StoringDataRestApplication-1.0-SNAPSHOT/webresources/url
@@ -16,6 +16,6 @@ Działanie:
     rzadania:
         GET: zwraca wszystkie adresy url
         GET pod adresem "/id/{id}": zwraca plik o id podanym w url
-        @POST: przyjmuje obiekt typu Json z Stringiem ktory zawiera url pliku do pobrania
-        @POST pod adresem "/list": przyjmuje obiekt Json z lista Stringow jako adresy plikow do pobrania
+        POST: przyjmuje obiekt typu Json z Stringiem ktory zawiera url pliku do pobrania
+        POST pod adresem "/list": przyjmuje obiekt Json z lista Stringow jako adresy plikow do pobrania
     
