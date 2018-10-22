@@ -1,6 +1,6 @@
 Aplikacja do działania wymaga:
 1. bazy danych postgresql
-2. ustwienia wartości jta-data-source
+2. ustwienia wartości jta-data-source,
                       javax.persistence.jdbc.url,
                       javax.persistence.jdbc.user,
                       javax.persistence.password  
@@ -11,7 +11,7 @@ Aplikacja do działania wymaga:
 4. opcjonalnie po pierwszym uruchomieniu mozna zmienic wartosc hibernate.hbm2ddl.auto na update lub validate
 
 Działanie:
-    sciezka dostepu: /StoringDataRestApplication-1.0-SNAPSHOT/webresources/url
+    sciezka dostepu: {host}{port}/StoringDataRestApplication-1.0-SNAPSHOT/webresources/url
 
     rzadania:
         GET: zwraca wszystkie adresy url
